@@ -9,9 +9,9 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM customers WHERE address ='Highway 21'")
+mycursor.execute("SELECT * FROM customers")
 
 myresult = mycursor.fetchall()
 
 for x in myresult:
-  print(x)
+print(x)
