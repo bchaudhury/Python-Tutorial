@@ -16,6 +16,4 @@ person1 = {
 import mymodule
 
 a = mymodule.person1["age"]
-print(a)
-
-x3 = float(input("Enter x3: "))
+print("Age: ", a)
