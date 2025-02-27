@@ -10,7 +10,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 sql = "INSERT INTO customers (name, address, mobile) VALUES (%s, %s, %s)"
-val = ("Bhaskar", "50 Lake Gardens", 8)
+val = ("Alex", "USA", 80)
 mycursor.execute(sql, val)
 
 mydb.commit()
