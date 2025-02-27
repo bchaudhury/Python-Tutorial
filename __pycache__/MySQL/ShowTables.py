@@ -1,5 +1,4 @@
 import mysql.connector
-
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
@@ -9,9 +8,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM customers")
+mycursor.execute("SHOW TABLES")
 
-myresult = mycursor.fetchall()
-
-for x in myresult:
+for x in mycursor:
   print(x)
