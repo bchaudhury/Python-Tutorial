@@ -1,3 +1,4 @@
 python -m pip install mysql-connector-python
 python --version
 import mysql.connector
+python -m pip install pymongo
