@@ -1,5 +1,0 @@
-python -m pip install mysql-connector-python
-python --version
-
-python -m pip install pymongo
-python -m pip install numpy

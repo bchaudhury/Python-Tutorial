@@ -1,0 +1,10 @@
+python -m pip install mysql-connector-python
+python --version
+
+python -m pip install pymongo
+python -m pip install numpy
+python -m pip install matplotlib
+python -m pip install scipy
+# For upgrading
+pip install --upgrade matplotlib
+
